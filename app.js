@@ -159,8 +159,8 @@ function handleMouseDown(e) {
 
 function handleMouseMove(e) {
     if (objectMove) {
-        object.x = object.x + (e.clientX - mousePosition) / 20;
-        console.log('mousemove');
+        object.x = e.clientX - 300;
+        // object.x = object.x + (e.clientX - mousePosition) / 20;
     }
 }
 
